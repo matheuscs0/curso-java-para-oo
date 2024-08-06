@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.modelos;
 
-public class Titles {
+public class Titles implements Comparable<Titles>{
     private String name;
     private int releaseYear;
     private boolean includedInPlan;
@@ -8,6 +8,27 @@ public class Titles {
     private int totalStars;
     private String description;
     private int durationInMinutes;
+
+    public Titles(String name, int releaseYear) {
+        this.name = name;
+        this.releaseYear = releaseYear;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getReleaseYear() {
+        return releaseYear;
+    }
+
+    public boolean isIncludedInPlan() {
+        return includedInPlan;
+    }
+
+    public double getStars() {
+        return stars;
+    }
 
     public int getTotalStars(){
         return totalStars;
@@ -57,5 +78,10 @@ public class Titles {
 
     public double obterMedia() {
         return stars / totalStars;
+    }
+
+    @Override
+    public int compareTo(Titles otherTitle) {
+        return this.getName().compareTo(otherTitle.getName());
     }
 }
