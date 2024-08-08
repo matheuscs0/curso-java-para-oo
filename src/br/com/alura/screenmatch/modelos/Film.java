@@ -27,4 +27,6 @@ public class Film extends Titles implements Classification {
         return (int) obterMedia() / 2; //cast (int)
     }
 
+
+
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Dogville",
+    "ReleaseYear": 2003,
+    "IncludedInPlan": false,
+    "Stars": 0.0,
+    "TotalStars": 0,
+    "Description": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town she finds out that their support has a price.",
+    "DurationInMinutes": 178
+  },
+  {
+    "Name": "Top Gun",
+    "ReleaseYear": 1986,
+    "IncludedInPlan": false,
+    "Stars": 0.0,
+    "TotalStars": 0,
+    "Description": "The Top Gun Naval Fighter Weapons School is where the best of the best train to refine their elite flying skills. When hotshot fighter pilot Maverick is sent to the school, his reckless attitude and cocky demeanor put him at odds ...",
+    "DurationInMinutes": 109
+  }
+]
